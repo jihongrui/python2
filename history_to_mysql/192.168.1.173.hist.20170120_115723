@@ -1,0 +1,112 @@
+#1484884650
+ps -ef|grep java
+#1484884664
+cd /home/www/safe_operate_8095
+#1484884665
+cd logs
+#1484884670
+tail -f catalina.out
+#1484889342
+ps -ef|grep java
+#1484889351
+kill -9 10947
+#1484889358
+cd /home/www/safe_operate_8095/bin
+#1484889369
+./startup.sh ;tail -f ../logs/catalina.out
+#1484889384
+ps -ef|grep java
+#1484889401
+kill -9 1418
+#1484889407
+cd /home/www/safe_manange_8096/bin
+#1484889415
+./startup.sh ;tail -f ../logs/catalina.out
+#1484890010
+ps -ef|grep java
+#1484890019
+kill -9 22413
+#1484890025
+cd /home/www/safe_operate_8095/bin
+#1484890035
+./startup.sh ;tail -f ../logs/catalina.out
+#1484895908
+ps -ef|grep java
+#1484895914
+kill -9 22819
+#1484895924
+cd  /home/www/safe_operate_8095/bin
+#1484895932
+./startup.sh ;tail -f ../logs/catalina.out
+#1484902947
+ps -ef|grep java
+#1484902955
+kill -9 26189
+#1484902956
+cd bin
+#1484902964
+cd /home/www/safe_operate_8095/bin
+#1484902973
+./startup.sh ;tail -f ../logs/catalina.out
+#1484903853
+cd /home/www/safe_operate_8095
+#1484903855
+cd logs
+#1484903859
+tail -f catalina.out
+#1484903867
+tail -f catalina.out -n300
+#1484903892
+tail -f catalina.out
+#1484904318
+ps -ef|grep java
+#1484904325
+kil;l -9 27620
+#1484904347
+kill -9 27620
+#1484904366
+cd /home/www/safe_operate_8095/bin
+#1484904375
+./startup.sh ;tail -f ../logs/catalina.out
+#1484905019
+ps -ef|grep java
+#1484905027
+kill -9 28551
+#1484905033
+cd /home/www/safe_operate_8095/bin
+#1484905041
+./startup.sh ;tail -f ../logs/catalina.out
+#1484905274
+ps -ef|grep jav
+#1484905282
+kill -9 28737
+#1484905287
+cd /home/www/safe_operate_8095/bin
+#1484905295
+./startup.sh ;tail -f ../logs/catalina.out
+#1484905544
+ps -ef|grep java
+#1484905556
+kill -9 28887
+#1484905562
+cd /home/www/safe_operate_8095/bin
+#1484905570
+./startup.sh ;tail -f ../logs/catalina.out
+#1484906017
+ps -ef|grep java
+#1484906025
+kill -9 29044
+#1484906031
+cd /home/www/safe_operate_8095/bin
+#1484906038
+./startup.sh ;tail -f .../osg
+#1484906049
+./startup.sh ;tail -f ../logs/catalina.out
+#1484906057
+ps -ef|grep java
+#1484906063
+kill -9 29221
+#1484906068
+cd /home/www/safe_operate_8095/bin
+#1484906078
+./startup.sh ;tail -f ../logs/catalina.out

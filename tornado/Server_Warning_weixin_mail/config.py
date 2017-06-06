@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+__author__ = "jihongrui@jsqix.com"
+
+MYSQL_HOST = '127.0.0.1'
+MYSQL_PORT = 3306
+MYSQL_USER = 'root'
+MYSQL_PASSWD = 'mmmmmm'
+MYSQL_DB = 'weixin'
